@@ -1,0 +1,14 @@
+[
+    {
+        "keys": ["ctrl+."],
+        "command": "stage_file",
+        "args": {"path":"$path"}
+    },
+    {
+        "keys": ["ctrl+,"],
+        "command": "unstage_file",
+        "args": {"path":"$path"}
+    },
+    { "keys": ["ctrl+tab"], "command": "next_file_tab" },
+    { "keys": ["ctrl+shift+tab"], "command": "prev_file_tab" },
+]

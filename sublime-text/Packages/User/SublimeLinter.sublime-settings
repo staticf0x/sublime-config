@@ -1,0 +1,17 @@
+// SublimeLinter Settings - User
+{
+    "linters": {
+        "annotations": {
+            "warnings": [
+                "WARNING",
+                "TODO",
+                "NOTE",
+                "README"
+            ],
+            "errors": [
+                "ERROR",
+                "SECURITY"
+            ]
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Behat Features",
+		"Comments Aware Enter",
+		"Dockerfile Syntax Highlighting",
+		"EditorConfig",
+		"Emmet",
+		"Emoji",
+		"Expand Selection to Quotes",
+		"fish",
+		"GraphQL",
+		"INI",
+		"LSP",
+		"LSP-pylsp",
+		"LSP-rust-analyzer",
+		"MarkdownEditing",
+		"MarkdownPreview",
+		"Package Control",
+		"Path Tools",
+		"Pretty JSON",
+		"RestructuredText Improved",
+		"RPM Spec Syntax",
+		"Rust Enhanced",
+		"Sass",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"TOML",
+	],
+}

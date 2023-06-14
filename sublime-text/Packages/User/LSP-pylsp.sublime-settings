@@ -1,0 +1,14 @@
+// Settings in here override those in "LSP-pylsp/LSP-pylsp.sublime-settings"
+
+{
+    "settings": {
+        "pylsp.plugins.flake8.enabled": true,
+        "pylsp.plugins.pyls_isort.enabled": true,
+        "pylsp.plugins.pylsp_black.enabled": true,
+        "pylsp.plugins.pydocstyle.enabled": false,
+        "pylsp.plugins.mccabe.enabled": false,
+        "pylsp.plugins.ruff.enabled": true,
+        "pylsp.plugins.ruff.select": null,  // This would override pyproject.toml
+        "pylsp.plugins.jedi.environment": ".venv"
+    },
+}

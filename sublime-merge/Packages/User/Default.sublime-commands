@@ -1,0 +1,12 @@
+[
+    {
+        "caption": "Rebase upstream (master)",
+        "command": "git",
+        "args": {"argv": ["pull", "--rebase", "upstream", "master"]}
+    },
+    {
+        "caption": "Rebase upstream (main)",
+        "command": "git",
+        "args": {"argv": ["pull", "--rebase", "upstream", "main"]}
+    }
+]

@@ -1,0 +1,30 @@
+{
+	"theme": "Default.sublime-theme",
+	"color_scheme": "Packages/User/Boxy Theme/schemes/Boxy Yesterday.tmTheme",
+	"ignored_packages":
+	[
+		"Rust",
+		"Vintage",
+	],
+	"font_size": 10,
+	"caret_style": "blink",
+	"ensure_newline_at_eof_on_save": true,
+	"highlight_line": true,
+	"remember_full_screen": true,
+	"rulers":
+	[
+		80,
+		100
+	],
+	"scroll_past_end": false,
+	"scroll_speed": 0.0,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"preview_on_click": "only_left",
+	"shift_tab_unindent": true,
+	"show_encoding": true,
+	"show_line_endings": true,
+	"hide_tab_scrolling_buttons": true,
+	"dictionary": "Packages/Language - English/en_US.dic",
+}

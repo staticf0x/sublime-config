@@ -1,0 +1,44 @@
+[
+    { "keys": ["ctrl+alt+down"], "command": "duplicate_line" },
+    { "keys": ["ctrl+alt+up"], "command": "duplicate_line" },
+    { "keys": ["ctrl+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+    { "keys": ["ctrl+d"], "command": "toggle_comment", "args": { "block": false } },
+    { "keys": ["ctrl+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+    { "keys": ["ctrl+b"], "command": "toggle_bookmark" },
+    { "keys": ["alt+pagedown"], "command": "next_bookmark" },
+    { "keys": ["alt+pageup"], "command": "prev_bookmark" },
+    { "keys": ["f12"], "command": "goto_definition" },
+    { "keys": ["ctrl+space"], "command": "auto_complete" },
+    { "keys": ["alt+f3"], "command": "find_under_expand" },
+    { "keys": ["shift+alt+f3"], "command": "find_all_under" },
+    { "keys": ["ctrl+alt+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+    { "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
+    { "keys": ["ctrl+\\"], "command": "toggle_side_bar" },
+    { "keys": ["alt+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["alt+down"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["ctrl+shift+'"], "command": "expand_selection_to_quotes" },
+
+    // Map ctrl+k commands to ctrl+,
+    { "keys": ["ctrl+,", "ctrl+u"], "command": "upper_case" },
+    { "keys": ["ctrl+,", "ctrl+l"], "command": "lower_case" },
+    { "keys": ["ctrl+,", "ctrl+space"], "command": "set_mark" },
+    { "keys": ["ctrl+,", "ctrl+a"], "command": "select_to_mark" },
+    { "keys": ["ctrl+,", "ctrl+w"], "command": "delete_to_mark" },
+    { "keys": ["ctrl+,", "ctrl+x"], "command": "swap_with_mark" },
+    { "keys": ["ctrl+,", "ctrl+y"], "command": "yank" },
+    { "keys": ["ctrl+,", "ctrl+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard EOL.sublime-macro"} },
+    { "keys": ["ctrl+,", "ctrl+backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"} },
+    { "keys": ["ctrl+,", "ctrl+g"], "command": "clear_bookmarks", "args": {"name": "mark"} },
+    { "keys": ["ctrl+,", "ctrl+c"], "command": "show_at_center" },
+    { "keys": ["ctrl+,", "ctrl+i"], "command": "invert_selection" },
+
+    { "keys": ["alt+["], "command": "jump_back" },
+    { "keys": ["alt+]"], "command": "jump_forward" },
+
+    { "keys": ["ctrl+e"], "command": "emmet_expand_abbreviation" },
+
+    { "keys": ["ctrl+/"], "command": "lsp_code_actions" },
+    { "keys": ["f4"], "command": "lsp_symbol_definition" },
+
+    { "keys": ["ctrl+shift+b"], "command": "insert_snippet", "args": {"name": "Packages/User/breakpoint.sublime-snippet"}}
+]
