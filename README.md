@@ -24,6 +24,7 @@ They go into `~/.config/sublime-{text|merge}/`.
 - RPM Spec Syntax
 - Sass
 - Dockerfile Syntax Highlighting
+- INI – for tox.ini etc
 
 # Theme
 
