@@ -13,6 +13,7 @@ They go into `~/.config/sublime-{text|merge}/`.
 - LSP-rust-analyer – requires `rust-analyzer` (can be installed via rustup)
 - Expand Selection to Quotes
 - MarkdownPreview
+- MarkdownEditing
 - RustEnhanced
 - SublimeLinter
 - SublimeLinter-annotations – for marking TODO, WARNING, etc
