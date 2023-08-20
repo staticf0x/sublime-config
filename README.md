@@ -14,7 +14,8 @@ They go into `~/.config/sublime-{text|merge}/`.
 - Expand Selection to Quotes
 - MarkdownPreview
 - RustEnhanced
-- SublimeLinter – for marking TODO, WARNING, etc
+- SublimeLinter
+- SublimeLinter-annotations – for marking TODO, WARNING, etc
 
 ## Syntax definitions
 
