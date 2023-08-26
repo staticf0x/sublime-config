@@ -17,6 +17,7 @@ They go into `~/.config/sublime-{text|merge}/`.
 - RustEnhanced
 - SublimeLinter
 - SublimeLinter-annotations – for marking TODO, WARNING, etc
+- Pretty JSON – format and validate JSON files
 
 ## Syntax definitions
 
