@@ -19,6 +19,16 @@ They go into `~/.config/sublime-{text|merge}/`.
 - SublimeLinter-annotations – for marking TODO, WARNING, etc
 - Pretty JSON – format and validate JSON files
 
+## Python LSP
+
+Either install the LSP-pylsp sublime package for convenience, or for the absolute latest version of all paackages, do this:
+
+```bash
+pip3 install --user python-lsp-server[all] python-lsp-ruff python-lsp-black pyls-isort
+```
+
+And then override `command` and `env` settings in [LSP-pylsp.sublime-settings](https://github.com/staticf0x/sublime-config/blob/master/sublime-text/Packages/User/LSP-pylsp.sublime-settings).
+
 ## Syntax definitions
 
 - TOML
