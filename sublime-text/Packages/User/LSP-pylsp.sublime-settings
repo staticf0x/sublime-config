@@ -1,6 +1,7 @@
 // Settings in here override those in "LSP-pylsp/LSP-pylsp.sublime-settings"
 
 {
+    // Only override `command` and `env` if using LSP other than the LSP-pylsp sublime package
     "command": ["/home/user/.local/bin/pylsp"],
     "env": {
         "PYTHONPATH": "/home/user/.local/lib/python3.11/site-packages",
