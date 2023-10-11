@@ -9,7 +9,7 @@ They go into `~/.config/sublime-{text|merge}/`.
 - Comments Aware Enter
 - Emmet (for web design)
 - LSP
-- LSP-pylsp – requires `pip3 install --user python-lsp-server[all]`
+- LSP-pylsp – convenience package for python-lsp-server, or see custom installation in [Python LSP](#python-lsp)
 - LSP-rust-analyer – requires `rust-analyzer` (can be installed via rustup)
 - Expand Selection to Quotes
 - MarkdownPreview
