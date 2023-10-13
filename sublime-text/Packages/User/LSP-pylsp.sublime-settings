@@ -8,6 +8,7 @@
         "MYPYPATH": "/home/user/.local/lib/python3.11/site-packages",
     },
     "settings": {
+        "pylsp.plugins.autopep8.enabled": false,  // Disable, otherwise black might not work
         "pylsp.plugins.flake8.enabled": true,
         "pylsp.plugins.pyls_isort.enabled": true,
         "pylsp.plugins.pylsp_black.enabled": true,
