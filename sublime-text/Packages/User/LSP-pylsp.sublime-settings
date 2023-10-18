@@ -17,6 +17,7 @@
         "pylsp.plugins.mccabe.enabled": false,
         "pylsp.plugins.ruff.enabled": true,
         "pylsp.plugins.ruff.select": null,  // This would override pyproject.toml
+        "pylsp.plugins.ruff.executable": "/home/user/.local/bin/ruff",  // Do not use the LSP-pylsp one
         "pylsp.plugins.jedi.environment": ".venv",
     },
 }
