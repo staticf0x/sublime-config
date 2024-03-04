@@ -18,6 +18,8 @@ They go into `~/.config/sublime-{text|merge}/`.
 - SublimeLinter
 - SublimeLinter-annotations – for marking TODO, WARNING, etc
 - Pretty JSON – format and validate JSON files
+- rainbow_csv
+- DocBlockr – if using C/C++/JavaScript/PHP
 
 ## Python LSP
 
@@ -39,6 +41,8 @@ And then override `command` and `env` settings in [LSP-pylsp.sublime-settings](h
 - Sass
 - Dockerfile Syntax Highlighting
 - INI – for tox.ini etc
+- Just – for justfile
+- Typst – if using [Typst](https://github.com/typst/typst)
 
 # Theme
 
