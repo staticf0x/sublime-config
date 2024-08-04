@@ -17,6 +17,7 @@ They go into `~/.config/sublime-{text|merge}/`.
 - RustEnhanced
 - SublimeLinter
 - SublimeLinter-annotations – for marking TODO, WARNING, etc
+- Path Tools
 - Pretty JSON – format and validate JSON files
 - rainbow_csv
 - DocBlockr – if using C/C++/JavaScript/PHP
