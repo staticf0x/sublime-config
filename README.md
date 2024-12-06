@@ -7,11 +7,13 @@ They go into `~/.config/sublime-{text|merge}/`.
 
 - A File Icon
 - Comments Aware Enter
+- EditorConfig
 - Emmet (for web design)
+- Expand Selection to Quotes
 - LSP
 - LSP-pylsp – convenience package for python-lsp-server, or see custom installation in [Python LSP](#python-lsp)
 - LSP-rust-analyer – requires `rust-analyzer` (can be installed via rustup)
-- Expand Selection to Quotes
+- LSP-json
 - MarkdownPreview
 - MarkdownEditing
 - RustEnhanced
@@ -24,7 +26,7 @@ They go into `~/.config/sublime-{text|merge}/`.
 
 ## Python LSP
 
-Either install the LSP-pylsp sublime package for convenience, or for the absolute latest version of all paackages, do this:
+Either install the LSP-pylsp sublime package for convenience, or for the absolute latest version of all packages, do this:
 
 ```bash
 pip3 install --user python-lsp-server[all] python-lsp-ruff pyls-isort
@@ -36,13 +38,14 @@ And then override `command` and `env` settings in [LSP-pylsp.sublime-settings](h
 
 ## Syntax definitions
 
-- TOML
-- fish
-- RPM Spec Syntax
-- Sass
 - Dockerfile Syntax Highlighting
+- fish
+- GraphQL
 - INI – for tox.ini etc
 - Just – for justfile
+- RPM Spec Syntax
+- Sass
+- TOML
 - Typst – if using [Typst](https://github.com/typst/typst)
 
 # Theme
