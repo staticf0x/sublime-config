@@ -1,4 +1,5 @@
 # sublime-config
+
 Config files for sublime-text and sublime-merge
 
 They go into `~/.config/sublime-{text|merge}/`.
@@ -6,6 +7,7 @@ They go into `~/.config/sublime-{text|merge}/`.
 # Essential plugins
 
 - A File Icon
+- Color Highlighter
 - Comments Aware Enter
 - EditorConfig
 - Emmet (for web design)
